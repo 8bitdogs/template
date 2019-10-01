@@ -6,3 +6,9 @@ debug:
 
 build:
 	go build -o ${NAME} .
+
+run:
+	go run *.go
+
+clean:
+	-@rm ${NAME}
